@@ -19,17 +19,17 @@ itself, and a good thing to share at a retro.
 Meridian Energy is a fictional client, so any of these is fine today. On a real engagement,
 use only the tools your client and Cegeka allow for that client's data.
 
-## Two exercises need a specific tool
+## Two blocks need a specific tool
 
-- **Block 2, Pair BD (agent mode):** the agent has to read and edit several files at once.
+- **Block 2 (agent mode, everyone):** the agent has to read and edit several files at once.
   Use GitHub Copilot in agent mode, inside the Meridian Codespace (or VS Code if you have it).
   M365 Copilot and browser chats can't do this. The setup steps are in
   `block2-prompt-ladders.md`.
-- **Block 3, Pair AD (MCP grounding):** the AI has to connect to our hosted MCP server. Use
+- **Block 3 (MCP grounding and skills, everyone):** the AI has to connect to our hosted MCP server. Use
   Claude.ai with a custom connector (or GitHub Copilot in VS Code/Codespace). M365 Copilot
-  Chat can't connect to it. The setup steps are in `block3-prompt-ladders.md`.
+  Chat can't connect to it, and has no skills. The setup steps are in `block3-prompt-ladders.md`.
 
-Everything else works in any of the tools above.
+Block 1 works in any of the tools above.
 
 ## How to prompt it well
 
@@ -56,9 +56,9 @@ In a plain chat, the AI only knows what you give it. Practical habits:
   summarising it yourself first. Let the AI work from the primary source.
 - **If pasting fails or the text gets cut off**, attach the file instead (most tools have a
   paperclip or **+** button). The full Meridian brief is long, and some tools limit how much
-  you can paste into one message. Afterwards, ask the AI to list the six documents it received,
+  you can paste into one message. Afterwards, ask the AI to list the three documents it received,
   so you know it has all of them.
-- If you're working across several documents, tell it explicitly: "I'm giving you six source
+- If you're working across several documents, tell it explicitly: "I'm giving you three source
   documents. Read all of them before answering, and tell me if any of them contradict each
   other."
 - Ask it to quote or reference which part of the source material it's drawing from. This makes

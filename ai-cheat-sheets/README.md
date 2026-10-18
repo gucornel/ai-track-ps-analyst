@@ -11,6 +11,8 @@ tried.
 
 - [`copilot-chat.md`](copilot-chat.md): which AI chat tool to use today (M365 Copilot, GitHub
   Copilot, Claude.ai or your own favourite), and how to use it well with no coding and no IDE.
+- [`working-efficiently.md`](working-efficiently.md): custom instructions, prompt files and
+  skills, so you don't retype the same rules in every chat. Used in Blocks 1 to 3.
 - [`mermaid.md`](mermaid.md): turning a description into a diagram using plain text, used
   repeatedly through the day.
 - [`claude-ai-custom-connectors.md`](claude-ai-custom-connectors.md): setting up the browser-based
